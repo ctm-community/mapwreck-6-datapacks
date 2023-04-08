@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:armor_stand"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "inasa:func/used_armor_stand"
+  }
+}

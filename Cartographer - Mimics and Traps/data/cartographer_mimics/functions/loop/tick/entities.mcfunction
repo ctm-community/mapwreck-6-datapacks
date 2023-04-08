@@ -1,0 +1,1 @@
+execute as @s[type=armor_stand,tag=cartographer_colossus] at @s if block ~ ~ ~ air run function cartographer_mimics:colossus/animation

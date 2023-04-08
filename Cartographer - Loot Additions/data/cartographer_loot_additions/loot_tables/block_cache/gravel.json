@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "$result"
+        },
+        "score": "ca.loot_multiplier",
+        "scale": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:flint"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:gravel"
+        }
+      ]
+    }
+  ]
+}

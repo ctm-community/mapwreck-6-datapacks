@@ -1,0 +1,1 @@
+execute as @e[type=item,sort=nearest,tag=!loot_checked,nbt={Item:{id:"minecraft:player_head",Count:1b}}] at @s run function cartographer_loot_additions:drops/do_drops

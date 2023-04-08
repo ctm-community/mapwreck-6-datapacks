@@ -1,0 +1,9 @@
+{
+  "values": [
+     "minecraft:skeleton",
+     "minecraft:wither_skeleton",
+     "minecraft:pillager",
+     "minecraft:drowned",
+     "minecraft:piglin"
+  ]
+}

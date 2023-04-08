@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "$result"
+        },
+        "score": "ca.loot_multiplier",
+        "scale": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:granite",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

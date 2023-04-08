@@ -1,0 +1,13 @@
+
+scoreboard players set $selected_area inasa.master 1
+execute as @e[tag=inasa.teleporter.main.interaction,distance=..6,limit=1,sort=nearest,type=interaction] at @s run function inasa:func/teleporter/main/select/swap
+
+execute as @e[tag=inasa.teleporter.main.interaction,distance=..6,limit=1,sort=nearest,type=interaction,tag=south] at @s positioned ~ ~ ~-6 run setblock ~ ~ ~ minecraft:structure_block[mode=load]{powered:1b,author:"RockNRed",ignoreEntities:1b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"inasa:teleporter/pano/1",posX:-8,posY:1,posZ:-8,powered:0b,rotation:"NONE",seed:0L,showair:0b,showboundingbox:1b,sizeX:17,sizeY:7,sizeZ:13}
+execute as @e[tag=inasa.teleporter.main.interaction,distance=..6,limit=1,sort=nearest,type=interaction,tag=north] at @s positioned ~ ~ ~6 run setblock ~ ~ ~ minecraft:structure_block[mode=load]{powered:1b,author:"RockNRed",ignoreEntities:1b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"inasa:teleporter/pano/1",posX:8,posY:1,posZ:8,powered:0b,rotation:"CLOCKWISE_180",seed:0L,showair:0b,showboundingbox:1b,sizeX:17,sizeY:7,sizeZ:13}
+execute as @e[tag=inasa.teleporter.main.interaction,distance=..6,limit=1,sort=nearest,type=interaction,tag=east] at @s positioned ~-6 ~ ~ run setblock ~ ~ ~ minecraft:structure_block[mode=load]{powered:1b,author:"RockNRed",ignoreEntities:1b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"inasa:teleporter/pano/1",posX:-8,posY:1,posZ:8,powered:0b,rotation:"COUNTERCLOCKWISE_90",seed:0L,showair:0b,showboundingbox:1b,sizeX:17,sizeY:7,sizeZ:13}
+execute as @e[tag=inasa.teleporter.main.interaction,distance=..6,limit=1,sort=nearest,type=interaction,tag=west] at @s positioned ~6 ~ ~ run setblock ~ ~ ~ minecraft:structure_block[mode=load]{powered:1b,author:"RockNRed",ignoreEntities:1b,integrity:1.0f,metadata:"",mirror:"NONE",mode:"LOAD",name:"inasa:teleporter/pano/1",posX:8,posY:1,posZ:-8,powered:0b,rotation:"CLOCKWISE_90",seed:0L,showair:0b,showboundingbox:1b,sizeX:17,sizeY:7,sizeZ:13}
+
+execute as @e[tag=inasa.teleporter.main.interaction,distance=..6,limit=1,sort=nearest,type=interaction,tag=south] at @s positioned ~ ~ ~-7 run setblock ~ ~ ~ redstone_block
+execute as @e[tag=inasa.teleporter.main.interaction,distance=..6,limit=1,sort=nearest,type=interaction,tag=north] at @s positioned ~ ~ ~7 run setblock ~ ~ ~ redstone_block
+execute as @e[tag=inasa.teleporter.main.interaction,distance=..6,limit=1,sort=nearest,type=interaction,tag=east] at @s positioned ~-7 ~ ~ run setblock ~ ~ ~ redstone_block
+execute as @e[tag=inasa.teleporter.main.interaction,distance=..6,limit=1,sort=nearest,type=interaction,tag=west] at @s positioned ~7 ~ ~ run setblock ~ ~ ~ redstone_block

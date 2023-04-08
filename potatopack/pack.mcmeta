@@ -1,0 +1,14 @@
+{
+	"pack": {
+		"pack_format": 12,
+		"description": "Developer tools for link2012"
+	},
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "advancements/.*"
+            }
+        ]
+    }
+}

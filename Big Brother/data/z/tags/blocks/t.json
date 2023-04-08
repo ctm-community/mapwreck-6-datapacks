@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#minecraft:all_signs",
+        "minecraft:command_block",
+        "minecraft:repeating_command_block",
+        "minecraft:chain_command_block",
+		"minecraft:trapped_chest",
+        "minecraft:chest"
+    ]
+}
