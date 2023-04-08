@@ -5,3 +5,6 @@
 #branching
 
 execute if entity @s[tag=boss] run function link:mobs/boss/20hz
+execute if entity @s[tag=tater] run function link:mobs/tatertick
+execute if entity @s[tag=spawngolem] run function link:mobs/spawngolem
+execute if entity @s[tag=scarecrow] run function link:mobs/scarecrowtick
