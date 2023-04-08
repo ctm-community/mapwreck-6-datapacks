@@ -4,3 +4,4 @@
 
 #branching
 execute if entity @s[tag=boss] run function link:mobs/boss/1hz
+execute if entity @s[tag=charmed] run function link:mobs/generic/charmed
