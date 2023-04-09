@@ -11,3 +11,5 @@ execute if entity @s[tag=scarecrow] run function link:mobs/scarecrowtick
 execute as @s[tag=cicada] at @s run function link:mobs/cicadatick
 execute as @s[tag=cicadawing] at @s run function link:mobs/cicadawing
 execute as @s[tag=cicadaarms] at @s run function link:mobs/cicadaarms
+execute as @s[tag=bhopper,type=cow] at @s run function link:mobs/bhopper
+execute as @s[tag=bhopper,type=item_display] at @s run function link:mobs/bhopper2
