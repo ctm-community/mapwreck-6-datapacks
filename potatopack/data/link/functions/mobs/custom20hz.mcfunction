@@ -8,3 +8,6 @@ execute if entity @s[tag=boss] run function link:mobs/boss/20hz
 execute if entity @s[tag=tater] run function link:mobs/tatertick
 execute if entity @s[tag=spawngolem] run function link:mobs/spawngolem
 execute if entity @s[tag=scarecrow] run function link:mobs/scarecrowtick
+execute as @s[tag=cicada] at @s run function link:mobs/cicadatick
+execute as @s[tag=cicadawing] at @s run function link:mobs/cicadawing
+execute as @s[tag=cicadaarms] at @s run function link:mobs/cicadaarms

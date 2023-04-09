@@ -12,6 +12,10 @@ scoreboard objectives add lds dummy
 scoreboard objectives add charm dummy
 scoreboard objectives add charm2 dummy
 scoreboard objectives add charmkb dummy
+scoreboard objectives add stunning dummy
+scoreboard objectives add arms dummy
+scoreboard objectives add wing1 dummy
+scoreboard objectives add wing2 dummy
 
 #set any needed scores
 scoreboard players add @a area 0

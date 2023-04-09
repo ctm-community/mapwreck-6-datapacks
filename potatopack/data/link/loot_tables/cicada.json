@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:air"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:birch_planks",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Sappy Planks\",\"color\":\"aqua\",\"italic\":false}'},CustomModelData:1,AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;1450942346,1625113637,-1617000538,993413428],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-1943877650,-243709372,-1569088446,665986873],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:0,UUID:[I;-1706819528,425152162,-1091967315,-1397411767],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.03,Operation:0,UUID:[I;1411273964,1875987629,-1761993058,1020769137],Slot:\"offhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"The bodacious love story of a mole and a cicada \"}']},title:\"Moleman Fanfic\",author:\"Some random cicada\",resolved:1b,pages:['{\"text\":\"I\\'ve always had a fascination with mole men. Their thick, luscious whiskers and muscular forearms make my heart skip a beat. Ever since I can remember I\\'ve fantasized about being with one, being swept off my feet and taken to far-off lands, passionately doing what mole men...\"}','{\"text\":\"and ladies do. So I just couldn\\'t help myself when Eris joined the sap suckling club. He was a transfer student, but not just any transfer student, he was a mole man. He was everything I dreamed of and more. He was kind, loving, hunky, and he had a fat badonkadonk. \"}','{\"text\":\"I couldn\\'t stop thinking about him, and how many babies we\\'d have. Can Moles and Cicadas even have babies? Never mind that, we were meant to be. As I was daydreaming about the man of my future offspring I heard a knock on the door. I was frightened, I had been...\"}','{\"text\":\"so caught up in my moley fantasy I was left alone in the sap suckling labs! \\\\\"Whho--who is it?\\\\\" I asked timidly. The door slowly slid open and a manly figure leaned confidently against the wall. \\\\\"Just me,\\\\\" said Eris as his dreamy eyes pierced my soul. \"}','{\"text\":\"I passed out. \\\\nI awoke in the arms of what I thought was an angel. \\\\\"Are you alright?\\\\\" Eris whispered. My heart began to pound as I thought to myself \\\\\"What does he think of me? Did I ruin my chances? Will I ever be good enough for him?\\\\\" Before I could say anything, Eris...\"}','{\"text\":\"...gently brushed the away sap dripping down my forehead. My mind was racing. His molish testosterone filled my nostrils, causing me to pull him closer. \\\\\"Big chungus,\\\\\" I whispered lovingly into his ear. \"}']}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
