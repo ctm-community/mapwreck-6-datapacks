@@ -13,3 +13,5 @@ execute as @s[tag=cicadawing] at @s run function link:mobs/cicadawing
 execute as @s[tag=cicadaarms] at @s run function link:mobs/cicadaarms
 execute as @s[tag=bhopper,type=cow] at @s run function link:mobs/bhopper
 execute as @s[tag=bhopper,type=item_display] at @s run function link:mobs/bhopper2
+execute as @s[tag=carrot] at @s run function link:mobs/carrot
+execute as @s[tag=carrotpot] at @s run function link:mobs/carrotpot
