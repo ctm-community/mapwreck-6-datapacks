@@ -25,4 +25,7 @@ execute if entity @s[nbt={AbsorptionAmount:0.0f}] run scoreboard players set tem
 
 execute if score temp temp matches 0 run playsound minecraft:entity.armor_stand.break hostile @a ~ ~ ~
 execute if score temp temp matches 0 run particle minecraft:block oak_planks ~ ~1.5 ~ 1.5 1.5 1.5 0 10
+execute at @s if score temp temp matches 0 if entity @a[distance=..10,tag=strawhat,limit=1] run summon iron_golem ~ ~ ~ {Silent:1b,DeathLootTable:"empty",PersistenceRequired:1b,NoAI:1b,AbsorptionAmount:8f,Health:100f,Tags:["scarecrow","good","custom20hz"],Passengers:[{id:"minecraft:item_display",view_range:1000f,shadow_radius:0f,width:3f,height:4f,item_display:"head",Tags:["scarecrow","good","no_glow","ca.no_glowing"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-1f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:potato",Count:1b,tag:{CustomModelData:2}}}],ActiveEffects:[{Id:14,Amplifier:1b,Duration:1000000,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:100},{Name:generic.attack_damage,Base:0}]}
+execute at @s if score temp temp matches 0 if entity @a[distance=..10,tag=strawhat,limit=1] run execute as @e[tag=scarecrow,distance=..3] at @s facing entity @p feet run tp @s ~ ~ ~ ~180 0
+execute at @s if score temp temp matches 0 if entity @a[distance=..10,tag=strawhat,limit=1] if entity @s[tag=bad] run playsound minecraft:entity.player.levelup hostile @a ~ ~ ~ 1 2
 execute if score temp temp matches 0 run function link:mobs/generic/voidkill

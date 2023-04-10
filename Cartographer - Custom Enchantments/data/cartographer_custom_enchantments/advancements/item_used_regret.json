@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "tier_1": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "player": [],
+        "item": {
+          "nbt": "{CustomEnchantments:[{id:\"curse_regret\"}]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "cartographer_custom_enchantments:enchant_calls/when_item_used"
+  }
+}

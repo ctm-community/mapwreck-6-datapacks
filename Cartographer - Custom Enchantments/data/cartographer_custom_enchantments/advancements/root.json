@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "title": {
+            "color": "#ACFFA6",
+            "text": "Lexica: Arcane Notes          "
+        },
+        "description": {
+            "color": "white",
+            "text": "Whenever you find a mysterious enchantment, this tab creates a short description of it. Detailed descriptions can be found in the Lexica Cartographia."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/bone_block_side.png"
+    }
+}

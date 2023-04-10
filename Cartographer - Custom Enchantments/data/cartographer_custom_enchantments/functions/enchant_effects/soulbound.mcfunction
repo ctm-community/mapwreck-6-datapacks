@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{tag:{CustomEnchantments:[{id:"soulbound"}]}}}] at @s run function cartographer_custom_enchantments:enchant_effects/soulbound/branch

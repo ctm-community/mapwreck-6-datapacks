@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"rally\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Rally                    ",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Enemies that attack the user are marked. Hitting a marked mob restores health.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:red_dye"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/passive/rally"
+    },
+    "parent": "cartographer_custom_enchantments:passive/lifesteal"
+}

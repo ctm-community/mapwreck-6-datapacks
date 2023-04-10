@@ -1,0 +1,47 @@
+{
+  "criteria": {
+    "on_block": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "nbt": "{CustomEnchantments:[{id:\"infinity\",lvl:1b}]}"
+        }
+      }
+    },
+    "consumed": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{CustomEnchantments:[{id:\"infinity\",lvl:1b}]}"
+        }
+      }
+    },
+    "on_block_s": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "nbt": "{CustomEnchantments:[{id:\"infinity\",lvl:1s}]}"
+        }
+      }
+    },
+    "consumed_s": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{CustomEnchantments:[{id:\"infinity\",lvl:1s}]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "on_block",
+      "consumed",
+      "on_block_s",
+      "consumed_s"
+    ]
+  ],
+  "rewards": {
+    "function": "cartographer_custom_enchantments:enchant_effects/infinity/consume"
+  }
+}

@@ -16,6 +16,10 @@ scoreboard objectives add stunning dummy
 scoreboard objectives add arms dummy
 scoreboard objectives add wing1 dummy
 scoreboard objectives add wing2 dummy
+scoreboard objectives add linkcarrot minecraft.used:minecraft.carrot_on_a_stick
+
+#Hunger booties failsafe
+advancement revoke @a[advancements={link:hungerbooties=true}] only link:hungerbooties
 
 #set any needed scores
 scoreboard players add @a area 0

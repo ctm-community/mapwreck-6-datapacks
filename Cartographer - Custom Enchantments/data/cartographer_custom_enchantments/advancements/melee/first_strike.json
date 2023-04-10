@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "First Strike                ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "The first melee attack you make in an instance of combat deals extra damage. This buff refreshes when you leave combat."
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"first_strike\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/melee/first_strike"
+    },
+    "parent": "cartographer_custom_enchantments:melee/transfiguration"
+}

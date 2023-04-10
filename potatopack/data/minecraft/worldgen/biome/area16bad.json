@@ -7,7 +7,7 @@
     "fog_color": 9520413,
     "water_color": 6094079,
     "water_fog_color": 5151910,
-    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "ambient_sound": "minecraft:ambient.warped_forest.loop",
     "particle": {
       "options": {
         "type": "crimson_spore"
