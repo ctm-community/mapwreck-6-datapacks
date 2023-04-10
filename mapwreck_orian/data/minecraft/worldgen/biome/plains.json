@@ -19,13 +19,13 @@
     },
     "additions_sound": {
       "sound": "ambient.basalt_deltas.additions",
-      "tick_chance": 0.015
+      "tick_chance": 0.01
     },
     "particle": {
       "options": {
         "type": "soul_fire_flame"
       },
-      "probability": 0.002
+      "probability": 0.001
     }
   },
   "spawners": {},
