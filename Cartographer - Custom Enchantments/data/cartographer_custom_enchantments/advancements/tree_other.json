@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Other Enchantments       ",
+            "color": "yellow"
+        },
+        "description": {
+            "color": "white",
+            "text": "Enchantments that don't fit in any other category."
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "cartographer_custom_enchantments:root"
+}

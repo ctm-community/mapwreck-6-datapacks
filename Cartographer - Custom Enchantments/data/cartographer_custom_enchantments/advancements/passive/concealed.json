@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "find": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:[{id:\"concealed\"}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Concealed                ",
+            "color": "aqua"
+        },
+        "description": {
+            "color": "white",
+            "text": "When the user slays a mob, they gain Stealth for a short time. Stealth is removed when you take or deal damage, makes you invisible, and gives you bonus melee attack damage."
+        },
+        "icon": {
+            "item": "minecraft:oak_leaves"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "rewards": {
+        "function": "cartographer_custom_enchantments:descriptions/passive/concealed"
+    },
+    "parent": "cartographer_custom_enchantments:passive/cleansing"
+}
