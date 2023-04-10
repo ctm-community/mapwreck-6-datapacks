@@ -16,7 +16,6 @@ data modify storage ca.susu:enchants offh set from storage ca.susu:enchants inv[
 #Run extra checks added via tag hook here
 function #minecraft:inventory_calculate/extras
 
-
 scoreboard players set @s ca.armor_count 0
 execute if data storage ca.susu:enchants head.id run scoreboard players add @s ca.armor_count 1
 execute if data storage ca.susu:enchants body.id run scoreboard players add @s ca.armor_count 1

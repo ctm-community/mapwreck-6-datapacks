@@ -15,3 +15,5 @@ execute as @s[tag=bhopper,type=cow] at @s run function link:mobs/bhopper
 execute as @s[tag=bhopper,type=item_display] at @s run function link:mobs/bhopper2
 execute as @s[tag=carrot] at @s run function link:mobs/carrot
 execute as @s[tag=carrotpot] at @s run function link:mobs/carrotpot
+execute as @s[tag=carrotproj] at @s run function link:items/wands/carrot/tick
+execute as @s[tag=potatoproj] at @s run function link:items/wands/potato/tick
