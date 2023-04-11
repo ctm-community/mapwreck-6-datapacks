@@ -13,3 +13,6 @@ execute if entity @s[tag=dig,scores={temp=1..}] run particle block granite ~ 165
 execute if entity @s[tag=dig,scores={temp=1..}] as @e[distance=..20,type=item_display,tag=a16bosspiece] at @s positioned ~ ~-5 ~ facing entity ba2946fa-6d05-4370-bdda-340c336e5bef feet at @s run tp @s ^ ^0.05 ^0.1
 execute if entity @s[tag=dig,scores={temp=1..}] as @e[distance=..20,type=item_display,tag=a16bosspiece] at @s if block ~ ~-1.3 ~ #airish run tp @s ~ ~-0.2 ~
 execute if entity @s[tag=dig,scores={temp=60..}] run function link:boss/killboss
+
+#volley
+#execute if entity @s[tag=volley] at @s facing entity @p feet run function link:boss/volley
