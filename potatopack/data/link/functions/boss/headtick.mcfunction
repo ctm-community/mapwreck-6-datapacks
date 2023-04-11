@@ -10,4 +10,6 @@ execute if entity @s[tag=dig,scores={temp=1..}] at @s positioned ^ ^ ^0.1 run tp
 execute if entity @s[tag=dig,scores={temp=1..}] run playsound minecraft:block.gravel.break hostile @a ~ 165 ~ 1 0.5
 execute if entity @s[tag=dig,scores={temp=1..}] run particle block dirt ~ 165 ~ 1.5 1.5 1.5 0.3 10
 execute if entity @s[tag=dig,scores={temp=1..}] run particle block granite ~ 165 ~ 1.5 1.5 1.5 0.1 10
+execute if entity @s[tag=dig,scores={temp=1..}] as @e[distance=..20,type=item_display,tag=a16bosspiece] at @s positioned ~ ~-5 ~ facing entity ba2946fa-6d05-4370-bdda-340c336e5bef feet at @s run tp @s ^ ^0.05 ^0.1
+execute if entity @s[tag=dig,scores={temp=1..}] as @e[distance=..20,type=item_display,tag=a16bosspiece] at @s if block ~ ~-1.3 ~ #airish run tp @s ~ ~-0.2 ~
 execute if entity @s[tag=dig,scores={temp=60..}] run function link:boss/killboss

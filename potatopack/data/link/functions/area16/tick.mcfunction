@@ -10,7 +10,7 @@ execute if score 1hz gremloop matches 10 run clone -209 159 239 -193 142 238 -20
 execute if score 1hz gremloop matches 1 run clone -175 143 239 -191 159 238 -202 173 197
 
 #Cow fix
-execute if score 10s gremloop matches 33 run kill @e[x=-212,y=207,z=290,distance=..20,type=cow,tag=ufocow,scores={life=2000..}]
+execute if score 10s gremloop matches 33 run kill @e[x=-212,y=207,z=290,distance=..20,type=cow,tag=ufocow,scores={life=565..}]
 
 #ufo
 effect give @a[x=-217,y=150,z=286,dx=10,dy=50,dz=8] minecraft:levitation 1 4 true
