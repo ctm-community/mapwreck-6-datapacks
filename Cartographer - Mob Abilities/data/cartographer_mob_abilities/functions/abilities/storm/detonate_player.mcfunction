@@ -1,0 +1,1 @@
+scoreboard players operation @s ca.damage_queue = $lightning ca.ability_dmg

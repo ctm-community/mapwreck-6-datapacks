@@ -1,0 +1,1 @@
+tag @s add ca.prevent_effects

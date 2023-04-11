@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Legionary                ",
+            "color": "white"
+        },
+        "description": {
+            "text": "Ability casts spawn reinforcement mobs.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:zombie_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "found1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.legionary\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_mob_abilities:descriptions/trait/other/legionary"
+    },
+    "parent": "cartographer_mob_abilities:trait/other/evocative"
+}

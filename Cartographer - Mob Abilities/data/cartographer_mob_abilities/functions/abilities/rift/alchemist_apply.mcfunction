@@ -1,0 +1,1 @@
+data modify entity @s ArmorItems[0] set from storage cartographer_mob_abilities:alchemist PotionCopy

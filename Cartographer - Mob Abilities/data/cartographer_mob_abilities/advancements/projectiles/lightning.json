@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Lightning                   ",
+            "color": "white"
+        },
+        "description": {
+            "text": "Shoots lightning which spawns near the player.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:lightning_rod"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "found": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ca.sh_lightning\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cartographer_mob_abilities:descriptions/projectiles/lightning"
+    },
+    "parent": "cartographer_mob_abilities:projectiles/grenade"
+}

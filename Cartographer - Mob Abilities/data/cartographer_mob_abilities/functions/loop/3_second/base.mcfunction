@@ -1,0 +1,1 @@
+#Nothing to see here, check Core for entity effects.

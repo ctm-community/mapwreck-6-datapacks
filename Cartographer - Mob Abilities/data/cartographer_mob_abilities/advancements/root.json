@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Lexica: Beastiary            ",
+            "color": "#ACFFA6"
+        },
+        "description": {
+            "color": "white",
+            "text": "Whenever you kill an enemy with a unique property or skill, this tab creates a short description of it. Detailed descriptions can be found in the Lexica Cartographia."
+        },
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/bone_block_side.png"
+    }
+}
