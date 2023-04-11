@@ -4,8 +4,14 @@
 scoreboard players set active boss16 1
 scoreboard players set bosstime boss16 0
 
+#failsafe
+function link:boss/killboss
+
 #displays
 function link:area16/yeetbossdisplays
+
+#remove spawners
+function link:boss/yeetspawners
 
 #grab everyone
 execute as e1d386aa-2478-413f-9acc-b2fd21c3da45 at @s run tp @a[distance=10..,gamemode=!creative,gamemode=!spectator] @s
@@ -43,3 +49,8 @@ bossbar set a16boss players @a
 bossbar set a16boss style notched_6
 execute unless score potato boss16 matches 1.. run bossbar set a16boss style notched_10
 
+#temporary 
+function link:boss/generateboss
+
+#foreload
+forceload add ~20 ~20 ~-20 ~-20

@@ -1,4 +1,5 @@
 #Bosstick for when boss is in active state 1, on and at interaction entity
+##e1d386aa-2478-413f-9acc-b2fd21c3da45 is the main interaction entity
 
 #time adding
 scoreboard players add bosstime boss16 1

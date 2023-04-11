@@ -7,6 +7,7 @@
 scoreboard players add @s life 1
 
 #branching
+execute as @s[tag=bossspawner] at @s run function link:boss/bossspawnertick
 execute if entity @s[tag=boss] run function link:mobs/boss/20hz
 execute if entity @s[tag=tater] run function link:mobs/tatertick
 execute if entity @s[tag=spawngolem] run function link:mobs/spawngolem

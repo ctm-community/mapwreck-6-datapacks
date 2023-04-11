@@ -14,5 +14,10 @@ execute if entity @s[tag=dig,scores={temp=1..}] as @e[distance=..20,type=item_di
 execute if entity @s[tag=dig,scores={temp=1..}] as @e[distance=..20,type=item_display,tag=a16bosspiece] at @s if block ~ ~-1.3 ~ #airish run tp @s ~ ~-0.2 ~
 execute if entity @s[tag=dig,scores={temp=60..}] run function link:boss/killboss
 
+#cooldown always 0 if ability not active
+
 #volley
-#execute if entity @s[tag=volley] at @s facing entity @p feet run function link:boss/volley
+execute if entity @s[tag=volley] at @s facing entity @p feet run function link:boss/volley
+
+#failsafes
+tag @s remove ca.rally_marked

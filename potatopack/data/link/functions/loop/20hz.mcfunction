@@ -2,6 +2,7 @@
 
 #resets
 scoreboard players set cicadascream temp 0
+scoreboard players set spawners boss16 0
 
 #Area 16 adventure mode failsafe
 gamemode survival @a[gamemode=adventure,tag=wasina16boss,tag=!ina16boss]
