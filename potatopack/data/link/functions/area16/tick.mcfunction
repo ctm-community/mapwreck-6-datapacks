@@ -1,5 +1,18 @@
-#20hz in area 16
+#20hz in area 16, has no context
 
+#brotate
+execute as @e[x=-203,y=165,z=232,dx=7,dy=7,dz=7,type=item_display,tag=boss16display] at @s run tp @s ~ ~ ~ ~4 ~
+
+#windmill
+execute if score 1hz gremloop matches 10 run clone -209 159 239 -193 142 238 -202 172 197
+execute if score 1hz gremloop matches 1 run clone -175 143 239 -191 159 238 -202 173 197
+
+#Cow fix
+execute if score 10s gremloop matches 33 run kill @e[x=-212,y=207,z=290,distance=..20,type=cow,tag=ufocow,scores={life=2000..}]
+
+#ufo
+effect give @a[x=-217,y=150,z=286,dx=10,dy=50,dz=8] minecraft:levitation 1 4 true
+execute if score 5hz gremloop matches 1 as @a[x=-217,y=150,z=286,dx=10,dy=52,dz=8] at @s run playsound minecraft:entity.shulker.ambient hostile @s ~ ~ ~ 0.3 0.66
 
 #jumpscare
 execute if score 1hz gremloop matches 3 run kill @e[type=item_display,tag=jumpscarecrow]
@@ -8,3 +21,5 @@ execute if score 1hz gremloop matches 3 run scoreboard players set in1 math 100
 execute if score 1hz gremloop matches 3 run function tools:rng/range
 execute if score 1hz gremloop matches 3 run execute if score out math matches ..1 at @a[limit=1,sort=random] positioned ~ ~2 ~ run summon item_display ^ ^ ^-4 {Silent:1b,view_range:1000f,shadow_radius:0f,width:3f,height:4f,item_display:"head",Tags:["jumpscarecrow"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-1f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:potato",Count:1b,tag:{CustomModelData:2}}}
 execute if score 1hz gremloop matches 3 run execute if score out math matches ..1 at @a[limit=1,sort=random] positioned ~ ~2 ~ positioned ^ ^ ^-4 as @e[distance=..3,type=item_display,tag=jumpscarecrow,limit=1,sort=nearest] at @s facing entity @a[limit=1,sort=nearest] feet run tp @s ~ ~ ~ ~180 0
+
+#adventure mode in boss section
