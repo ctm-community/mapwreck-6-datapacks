@@ -19,6 +19,8 @@ scoreboard objectives add wing2 dummy
 scoreboard objectives add linkcarrot minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add boss16 dummy
 scoreboard objectives add pieceid dummy
+scoreboard objectives add redisajerk deathCount
+scoreboard objectives add redisajerk2 minecraft.custom:time_since_death
 
 #Hunger booties and other advancements failsafe
 advancement revoke @a[advancements={link:hungerbooties=true}] only link:hungerbooties

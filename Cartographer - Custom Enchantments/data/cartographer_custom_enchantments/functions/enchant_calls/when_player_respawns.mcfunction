@@ -2,8 +2,7 @@
 
 tag @s add no_cdl_msg
 
-#added by link
-stopsound @s ambient minecraft:ambient.warped_forest.loop
+
 
 #Soulbound Return
 function cartographer_custom_enchantments:enchant_effects/soulbound_return
