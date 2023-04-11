@@ -1,4 +1,6 @@
 #20hz in area 16, has no context
+##e1d386aa-2478-413f-9acc-b2fd21c3da45 is the main interaction entity
+
 
 #brotate
 execute as @e[x=-203,y=165,z=232,dx=7,dy=7,dz=7,type=item_display,tag=boss16display] at @s run tp @s ~ ~ ~ ~4 ~
@@ -22,4 +24,6 @@ execute if score 1hz gremloop matches 3 run function tools:rng/range
 execute if score 1hz gremloop matches 3 run execute if score out math matches ..1 at @a[limit=1,sort=random] positioned ~ ~2 ~ run summon item_display ^ ^ ^-4 {Silent:1b,view_range:1000f,shadow_radius:0f,width:3f,height:4f,item_display:"head",Tags:["jumpscarecrow"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-1f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:potato",Count:1b,tag:{CustomModelData:2}}}
 execute if score 1hz gremloop matches 3 run execute if score out math matches ..1 at @a[limit=1,sort=random] positioned ~ ~2 ~ positioned ^ ^ ^-4 as @e[distance=..3,type=item_display,tag=jumpscarecrow,limit=1,sort=nearest] at @s facing entity @a[limit=1,sort=nearest] feet run tp @s ~ ~ ~ ~180 0
 
-#adventure mode in boss section
+#adventure mode in boss section and branch for arena ticking
+execute at e1d386aa-2478-413f-9acc-b2fd21c3da45 positioned ~ ~4 ~ as @a[distance=..24] run function link:area16/playerinbossarena
+execute as e1d386aa-2478-413f-9acc-b2fd21c3da45 at @s run function link:area16/arenatick

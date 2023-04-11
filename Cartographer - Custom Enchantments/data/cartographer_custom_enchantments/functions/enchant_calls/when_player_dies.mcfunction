@@ -1,5 +1,8 @@
 #These effects will activate when the player dies.
 
+#added by link
+execute at @s if biome ~ ~ ~ minecraft:eroded_badlands run stopsound @s ambient minecraft:entity.wandering_trader.death
+
 #Curse of Shattering
 execute as @e[type=item,distance=..5,nbt={Item:{tag:{CustomEnchantments:[{id:"curse_shattering"}]}}}] at @s run function cartographer_custom_enchantments:enchant_effects/curse_shattering
 

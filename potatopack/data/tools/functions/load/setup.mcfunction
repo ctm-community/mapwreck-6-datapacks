@@ -17,12 +17,21 @@ scoreboard objectives add arms dummy
 scoreboard objectives add wing1 dummy
 scoreboard objectives add wing2 dummy
 scoreboard objectives add linkcarrot minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add boss16 dummy
+scoreboard objectives add pieceid dummy
 
-#Hunger booties failsafe
+#Hunger booties and other advancements failsafe
 advancement revoke @a[advancements={link:hungerbooties=true}] only link:hungerbooties
+advancement revoke @a[advancements={link:playerclicksstartboss16=true}] only link:playerclicksstartboss16
+advancement revoke @a[advancements={link:playerclicksstartboss162=true}] only link:playerclicksstartboss162
+
+#boss bar
+bossbar add a16boss {"text":"☠ Charles ☠","color":"dark_red","italic":false}
+bossbar set a16boss color red
 
 #set any needed scores
 scoreboard players add @a area 0
+scoreboard players add active boss16 0
 
 #Rng stuffs
 scoreboard players add in math 0

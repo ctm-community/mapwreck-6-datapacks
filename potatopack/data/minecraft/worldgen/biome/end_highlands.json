@@ -3,15 +3,15 @@
   "downfall": 0.4,
   "has_precipitation": false,
   "effects": {
-    "sky_color": 10103325,
-    "fog_color": 9520413,
+    "sky_color": 9657436,
+    "fog_color": 9994625,
     "water_color": 6094079,
     "water_fog_color": 5151910,
     "particle": {
       "options": {
         "type": "crimson_spore"
       },
-      "probability": 0.01
+      "probability": 0.00
     }
   },
   "spawners": {},
