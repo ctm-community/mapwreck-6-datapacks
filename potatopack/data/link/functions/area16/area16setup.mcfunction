@@ -7,6 +7,9 @@ summon item_display -212.5 180 290.5 {UUID:[I;975295455,963003111,-2116045220,-1
 
 #boss displays
 kill @e[tag=boss16display]
+kill @e[type=item,tag=blackwool]
+kill @e[type=villager,tag=farmerguy]
+tag @a remove farmervoiceline
 
 summon text_display -200 167 235 {view_range:0.25f,width:3f,height:3f,billboard:"vertical",shadow:1b,see_through:0b,alignment:"center",Tags:["boss16display"],text:'[{"text":"Click to \\nstart boss","bold":true,"italic":false},{"text":"\\n(tps all)","bold":false,"italic":false}]',background:16711680}
 summon interaction -200 167 235 {UUID:[I;-506231126,611860799,-1697860867,566483525],width:1f,height:1f,response:1b,Tags:["boss16display","boss16interaction"]}
@@ -33,6 +36,10 @@ scoreboard players set carrot boss16 0
 scoreboard players set potato boss16 0
 scoreboard players set beetroot boss16 0
 scoreboard players set wheat boss16 0
+
+#villager
+summon villager -209 163 184 {Invulnerable:1b,DeathLootTable:"empty",PersistenceRequired:1b,NoAI:1b,Rotation:[90F,0F],Tags:["farmerguy"],Attributes:[{Name:generic.movement_speed,Base:0}],VillagerData:{profession:"minecraft:farmer",type:"minecraft:plains"},Offers:{}}
+
 
 #reset misc. boss stuff
 scoreboard players set active boss16 0

@@ -28,3 +28,6 @@ execute if score 1hz gremloop matches 3 run execute if score out math matches ..
 #adventure mode in boss section and branch for arena ticking
 execute at e1d386aa-2478-413f-9acc-b2fd21c3da45 positioned ~ ~4 ~ as @a[distance=..24] run function link:area16/playerinbossarena
 execute as e1d386aa-2478-413f-9acc-b2fd21c3da45 at @s run function link:area16/arenatick
+
+#player near farmer
+execute if score 1hz gremloop matches 17 as @a at @s if entity @e[distance=..7,type=villager,tag=farmerguy,limit=1] run function link:area16/farmer
