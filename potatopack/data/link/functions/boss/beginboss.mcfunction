@@ -9,6 +9,10 @@ scoreboard players set digup boss16 0
 function link:boss/killboss
 kill @e[type=bat,tag=boss16bat]
 
+#pink mode
+scoreboard players set pink boss16 0
+execute if entity @a[limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:pink_dye"}]}] run scoreboard players set pink boss16 1
+
 #displays
 function link:area16/yeetbossdisplays
 
@@ -42,6 +46,10 @@ scoreboard players set in math 1
 scoreboard players set in1 math 100
 function tools:rng/range
 execute if score out math matches ..10 run bossbar set a16boss name {"text":"UwU Charles UwU","color":"dark_red","italic":false}
+bossbar set a16boss color red
+
+execute if score pink boss16 matches 1 run bossbar set a16boss color pink
+execute if score pink boss16 matches 1 run bossbar set a16boss name {"text":"UwU Charletee UwU","color":"light_purple","italic":false}
 
 bossbar set a16boss max 60
 bossbar set a16boss value 0

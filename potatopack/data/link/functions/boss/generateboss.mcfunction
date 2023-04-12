@@ -37,3 +37,8 @@ summon item_display ~ ~ ~ {view_range:1000f,shadow_radius:1f,shadow_strength:1f,
 scoreboard players add @e[type=item_display,tag=a16bosspiece] pieceid 1
 summon item_display ~ ~ ~ {view_range:1000f,shadow_radius:1f,shadow_strength:1f,width:10f,height:10f,item_display:"ground",Tags:["a16bosspiece","custom20hz","ca.no_glowing","no_glow","ca.boss","boss"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:pink_dye",Count:1b,tag:{CustomModelData:3}}}
 scoreboard players add @e[type=item_display,tag=a16bosspiece] pieceid 1
+
+#pink exception
+execute if score pink boss16 matches 1.. as @e[type=item_display,tag=a16bosspiece,scores={pieceid=15}] run data modify entity @s item.tag.CustomModelData set value 12
+execute if score pink boss16 matches 1.. as @e[type=item_display,tag=a16bosspiece,scores={pieceid=1}] run data modify entity @s item.tag.CustomModelData set value 13
+execute if score pink boss16 matches 1.. as @e[type=item_display,tag=a16bosspiece,scores={pieceid=2..14}] run data modify entity @s item.tag.CustomModelData set value 11
