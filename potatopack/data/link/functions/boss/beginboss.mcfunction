@@ -7,6 +7,7 @@ scoreboard players set digup boss16 0
 
 #failsafe
 function link:boss/killboss
+kill @e[type=bat,tag=boss16bat]
 
 #displays
 function link:area16/yeetbossdisplays

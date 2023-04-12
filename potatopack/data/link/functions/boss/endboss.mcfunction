@@ -22,6 +22,8 @@ bossbar set a16boss players
 
 #kill boss
 function link:boss/killboss
+kill @e[type=bat,tag=boss16bat]
+kill @e[type=minecraft:item_display,tag=boss16spike]
 
 #foreload
 forceload remove ~20 ~20 ~-20 ~-20

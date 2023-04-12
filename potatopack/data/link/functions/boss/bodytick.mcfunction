@@ -16,3 +16,11 @@ tag @e[distance=..5,type=item_display,tag=a16bosspiece,limit=1,sort=nearest,tag=
 scoreboard players set temp temp 777
 execute at @s positioned ~-0.8 ~-1.5 ~-0.8 as @a[dx=1.6,dy=3,dz=1.6,limit=1] run function link:boss/bossdamagesplayer
 scoreboard players set temp temp 0
+
+#wiggle
+scoreboard players add wiggle temp 1
+execute if score wiggle temp matches 5.. run scoreboard players set wiggle temp 1
+execute if score bosstime boss16 matches 1025.. if score wiggle temp matches 1 at @s run tp @s ~0.2 ~ ~
+execute if score bosstime boss16 matches 1025.. if score wiggle temp matches 2 at @s run tp @s ~-0.2 ~ ~
+execute if score bosstime boss16 matches 1025.. if score wiggle temp matches 3 at @s run tp @s ~ ~ ~0.2
+execute if score bosstime boss16 matches 1025.. if score wiggle temp matches 4 at @s run tp @s ~ ~ ~-0.2

@@ -2,7 +2,6 @@
 
 #resets
 scoreboard players set cicadascream temp 0
-scoreboard players set spawners boss16 0
 
 #Area 16 adventure mode failsafe
 gamemode survival @a[gamemode=adventure,tag=wasina16boss,tag=!ina16boss]
@@ -14,5 +13,6 @@ execute if entity @a[x=-262,y=121,z=160,dx=150,dy=100,dz=160,limit=1] run functi
 execute as @a at @s run function link:loop/player20hz
 
 #mob loop
+scoreboard players set spawners boss16 0
 execute as @e[tag=custom20hz,type=!player] at @s run function link:mobs/custom20hz
 

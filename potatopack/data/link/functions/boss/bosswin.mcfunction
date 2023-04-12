@@ -16,6 +16,9 @@ bossbar set a16boss players
 
 #kill any remains
 function link:boss/killboss
+kill @e[type=bat,tag=boss16bat]
+
+kill @e[type=minecraft:item_display,tag=boss16spike]
 
 #sound
 execute as @a at @s run playsound minecraft:sfx.win player @s ~ ~ ~

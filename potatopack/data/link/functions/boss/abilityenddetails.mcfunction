@@ -11,3 +11,6 @@ execute if score wheat boss16 matches 1.. run data modify entity @s Attributes[{
 execute unless score wheat boss16 matches 1.. run data modify entity @s Attributes[{Name:"minecraft:generic.movement_speed"}].Base set value 0.44d
 #data modify entity @s Attributes[{Name:"minecraft:generic.movement_speed"}].Base set value 0d
 item replace entity @s weapon.offhand with air
+
+#next phase
+title @a title {"text":"RUN","color":"#FF0000","italic":false}
