@@ -3,6 +3,9 @@
 
 ##c138d663-3942-4fcf-a193-5bf8481dfddf is fake hole
 
+#failsafes
+kill @e[distance=..20,type=boat]
+
 #time adding
 scoreboard players add bosstime boss16 1
 
