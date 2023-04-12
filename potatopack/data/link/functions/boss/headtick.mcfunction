@@ -14,10 +14,28 @@ execute if entity @s[tag=dig,scores={temp=1..}] as @e[distance=..20,type=item_di
 execute if entity @s[tag=dig,scores={temp=1..}] as @e[distance=..20,type=item_display,tag=a16bosspiece] at @s if block ~ ~-1.3 ~ #airish run tp @s ~ ~-0.2 ~
 execute if entity @s[tag=dig,scores={temp=60..}] run function link:boss/killboss
 
-#cooldown always 0 if ability not active
+#Digging up
+execute if entity @s[tag=digup] run scoreboard players add digup boss16 1
+execute if entity @s[tag=digup] if score digup boss16 matches 1.. at @s facing -200 ~100 235 run tp @s ~ ~0.3 ~ ~ ~
+execute if entity @s[tag=digup] if score digup boss16 matches 1.. run playsound minecraft:block.gravel.break hostile @a ~ 165 ~ 1 0.5
+execute if entity @s[tag=digup] if score digup boss16 matches 1.. run particle block dirt ~ 165 ~ 1.5 1.5 1.5 0.3 10
+execute if entity @s[tag=digup] if score digup boss16 matches 1.. run particle block granite ~ 165 ~ 1.5 1.5 1.5 0.1 10
+execute if entity @s[tag=digup] if block ~ ~-1.3 ~ barrier run function link:boss/stopdigup
+execute if entity @s[tag=digup] if block ~ ~-1.3 ~ oak_slab run function link:boss/stopdigup
+
+#Boss spawning in
+execute if score bosstime boss16 matches ..30 facing -201 170 245 run tp @s ^ ^ ^0.3 ~ ~
+execute if score bosstime boss16 matches ..30 run playsound minecraft:block.gravel.break hostile @a ~ 165 ~ 1 0.5
+execute if score bosstime boss16 matches ..30 run particle block dirt ~ 163 ~ 1.5 1.5 1.5 0.3 10
+execute if score bosstime boss16 matches ..30 run particle block granite ~ 163 ~ 1.5 1.5 1.5 0.1 10
+execute if score bosstime boss16 matches 31 at @s facing entity @p feet run tp @s ~ ~ ~ ~ ~
+execute if score bosstime boss16 matches 50..52 run tag @s add dig
 
 #volley
 execute if entity @s[tag=volley] at @s facing entity @p feet run function link:boss/volley
 
+#dealing damage
+execute if score bosstime boss16 matches 210..249 if entity @s[nbt={HurtTime:10s}] run function link:boss/bossdamaged
+execute if entity @s[nbt={HurtTime:10s}] run say test
 #failsafes
 tag @s remove ca.rally_marked

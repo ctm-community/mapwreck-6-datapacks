@@ -3,6 +3,7 @@
 #state
 scoreboard players set active boss16 2
 scoreboard players set bosstime boss16 0
+scoreboard players set digup boss16 0
 
 #biome change
 schedule function link:boss/biomefunny 1s

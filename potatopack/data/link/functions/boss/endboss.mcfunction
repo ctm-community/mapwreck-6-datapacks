@@ -6,6 +6,7 @@ scoreboard players set active boss16 0
 scoreboard players set bosstime boss16 0
 scoreboard players set spawners boss16 0
 scoreboard players set spawnertime boss16 0
+scoreboard players set digup boss16 0
 
 #remove spawners
 function link:boss/yeetspawners

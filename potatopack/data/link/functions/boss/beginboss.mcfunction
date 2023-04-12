@@ -3,6 +3,7 @@
 #state
 scoreboard players set active boss16 1
 scoreboard players set bosstime boss16 0
+scoreboard players set digup boss16 0
 
 #failsafe
 function link:boss/killboss
@@ -49,8 +50,9 @@ bossbar set a16boss players @a
 bossbar set a16boss style notched_6
 execute unless score potato boss16 matches 1.. run bossbar set a16boss style notched_10
 
-#temporary 
-function link:boss/generateboss
+#spawn boss 
+execute positioned -201 154 245 run function link:boss/generateboss
+data merge entity ba2946fa-6d05-4370-bdda-340c336e5bef {NoAI:1b}
 
 #foreload
 forceload add ~20 ~20 ~-20 ~-20
