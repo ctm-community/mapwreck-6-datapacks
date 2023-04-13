@@ -4,3 +4,5 @@
 
 #branching
 execute if entity @s[tag=boss] run function link:mobs/boss/10hz
+
+## !!!!!!! Currently Disabled !!!!!!!!!!!!

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{UUID:[I;-506231126,611860799,-1697860867,566483525]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "link:boss/playerclicksstartboss"
+  }
+}

@@ -1,0 +1,1 @@
+#Currently unused, as all entity effects run through core.

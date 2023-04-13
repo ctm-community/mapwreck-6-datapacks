@@ -1,0 +1,22 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 6733311,
+    "fog_color": 3050905,
+    "water_color": 6388580,
+    "water_fog_color": 2302743,
+    "ambient_sound": "minecraft:entity.wandering_trader.death",
+    "particle": {
+      "options": {
+        "type": "falling_nectar"
+      },
+      "probability": 0.003
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

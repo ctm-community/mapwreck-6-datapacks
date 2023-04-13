@@ -1,0 +1,22 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 6733311,
+    "fog_color": 3050905,
+    "water_color": 6094079,
+    "water_fog_color": 5151910,
+    "ambient_sound": "minecraft:ambient.crimson_forest.loop",
+    "particle": {
+      "options": {
+        "type": "falling_nectar"
+      },
+      "probability": 0.003
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

@@ -26,12 +26,17 @@ scoreboard objectives add ca.locked_stage dummy
 
 scoreboard objectives add ca.soul_total dummy
 scoreboard objectives add ca.soul_count dummy
-scoreboard objectives add ca.get_soul totalKillCount
+
+#Kill Score
+scoreboard objectives remove ca.get_soul
+scoreboard objectives add ca.get_soul dummy
 
 scoreboard objectives add ca.break_head_look_time dummy
 
 scoreboard objectives add ca.loot_timer dummy
 scoreboard objectives add ca.loot_var dummy
+
+scoreboard objectives add ca.la_respawn minecraft.custom:minecraft.time_since_death
 
 scoreboard objectives add ca.loot_multiplier dummy
 execute unless score $scale ca.loot_multiplier matches 1.. run scoreboard players set $scale ca.loot_multiplier 2
