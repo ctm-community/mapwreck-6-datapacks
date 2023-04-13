@@ -1,0 +1,2 @@
+#weakness dream
+give @s iron_helmet{display:{Name:'{"text":"Blessing of Mind","color":"aqua","bold":true,"italic":false}',Lore:['{"text":"Weakness Cleansing","color":"gray","italic":false}','{"text":""}','{"text":"Our mind is a dream.","color":"dark_gray","italic":true}']},Enchantments:[{id:"minecraft:fire_protection",lvl:2s},{id:"minecraft:vanishing_curse",lvl:1s}],CustomEnchantments:[{id:"weakness_cleansing",lvl:1b}]} 1

@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "items": [
+          "minecraft:iron_helmet"
+        ],
+        "nbt": "{ori_haunted:1b}"
+      }
+    }
+  }
+}
