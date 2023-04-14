@@ -1,0 +1,2 @@
+#grudge laser
+give @s bow{display:{Name:'{"text":"Possessed Longbow","color":"dark_green","bold":true,"italic":false}',Lore:['{"text":"Overcharge II","color":"gray","italic":false}','{"text":"Trueshot","color":"gray","italic":false}','{"text":"Curse of Malevolence","color":"red","italic":false}','{"text":""}','{"text":"The spirits\' grudge could even reach the sun.","color":"dark_gray","italic":true,"underlined":false}']},Enchantments:[{}],CustomEnchantments:[{id:"overcharge",lvl:2b},{id:"trueshot",lvl:1b},{id:"curse_malevolence",lvl:1b}]} 1

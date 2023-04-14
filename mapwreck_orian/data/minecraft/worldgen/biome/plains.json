@@ -1,0 +1,35 @@
+{
+  "temperature": 0.8,
+  "downfall": 0,
+  "has_precipitation": false,
+  "temperature_modifier": "frozen",
+  "effects": {
+    "sky_color": 13885,
+    "fog_color": 8996,
+    "water_color": 0,
+    "water_fog_color": 0,
+    "grass_color": 9249,
+    "foliage_color": 9249,
+    "ambient_sound": "ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "ambient.basalt_deltas.mood",
+      "tick_delay": 3000,
+      "block_search_extent": 3,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "ambient.basalt_deltas.additions",
+      "tick_chance": 0.01
+    },
+    "particle": {
+      "options": {
+        "type": "soul_fire_flame"
+      },
+      "probability": 0.001
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}
