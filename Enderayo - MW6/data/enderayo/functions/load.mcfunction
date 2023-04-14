@@ -1,0 +1,2 @@
+tellraw @a {"text":"[Enderayo's pack loaded]","color":"gray","italic":false,"hoverEvent":{"action":"show_text","contents":[{"text":"Hopefully 99.9% Bugfree","color":"gray","italic":true}]}}
+function enderayo:main
