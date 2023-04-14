@@ -1,0 +1,2 @@
+#impressive tech
+give @s iron_pickaxe{display:{Name:'{"text":"Shinespark","color":"yellow","bold":true,"italic":false}',Lore:['{"text":"Stunning III","color":"gray","italic":false}','{"text":"Eruption II","color":"gray","italic":false}','{"text":""}','{"text":"It sings a song normal beings cannot comprehend.","color":"dark_gray","italic":true,"underlined":false}']},Enchantments:[{id:"minecraft:unbreaking",lvl:2s}],CustomEnchantments:[{id:"stunning",lvl:3b},{id:"eruption",lvl:2b}]} 1

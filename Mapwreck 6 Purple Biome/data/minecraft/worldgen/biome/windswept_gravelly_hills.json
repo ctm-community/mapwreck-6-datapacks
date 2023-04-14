@@ -1,0 +1,28 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 14926179,
+    "fog_color": 12688958,
+    "water_color": 16762409,
+    "water_fog_color": 13409822,
+    "grass_color": 8597531,
+    "foliage_color": 10891025,
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "additions_sound": {
+      "sound": "minecraft:ambient.underwater.loop.additions.ultra_rare",
+      "tick_chance": 0.0025
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:landing_honey"
+      },
+      "probability": 0.001
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}
