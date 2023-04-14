@@ -4,6 +4,7 @@
 
 #brotate
 execute as @e[x=-203,y=165,z=232,dx=7,dy=7,dz=7,type=item_display,tag=boss16display] at @s run tp @s ~ ~ ~ ~4 ~
+execute as 1d155755-5515-4238-b652-74c121a184f8 at @s run tp @s ~ ~ ~ ~3 ~
 
 #windmill
 execute if score 1hz gremloop matches 10 run clone -209 159 239 -193 142 238 -202 172 197
