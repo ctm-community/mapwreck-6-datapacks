@@ -1,0 +1,9 @@
+{
+    "criteria": {
+        "claim_obj": {
+            "trigger": "inventory_changed",
+            "conditions": {"items": [{"nbt":"{white_obj:1b}"}]}
+        }
+    },
+    "rewards": {"function": "sqx.mw6:areas/white/obj_claim"}
+}

@@ -1,0 +1,43 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "location_check",
+			"predicate": {
+				"position": {
+					"x": {
+						"min": 149,
+						"max": 317
+					},
+					"y": {
+						"min": -64,
+						"max": 32
+					},
+					"z": {
+						"min": -78,
+						"max": 36
+					}
+				}
+			}
+		},
+		{
+			"condition": "location_check",
+			"predicate": {
+				"position": {
+					"x": {
+						"min": 107,
+						"max": 192
+					},
+					"y": {
+						"min": -64,
+						"max": 32
+					},
+					"z": {
+						"min": -43,
+						"max": 20
+					}
+				}
+			}
+		}
+	]
+}
