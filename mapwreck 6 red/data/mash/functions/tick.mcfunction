@@ -15,3 +15,5 @@
     execute as @e[type=skeleton,tag=red.skeleton] at @s run function mash:mob/skeleton/tick
     execute as @e[type=iron_golem,tag=red.golem] at @s run function mash:mob/iron_golem/tick
     execute as @e[type=bat,tag=red.onibi] at @s run function mash:mob/onibi/tick
+    execute as @e[type=vex,tag=red.ghost] at @s run function mash:mob/ghost/tick
+    execute as @e[type=wolf,tag=red.komainu] at @s run function mash:mob/komainu/tick
