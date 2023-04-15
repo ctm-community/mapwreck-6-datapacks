@@ -5,6 +5,7 @@
 
 #failsafes
 kill @e[distance=..20,type=boat]
+kill @e[distance=..20,type=ender_pearl]
 
 #time adding
 scoreboard players add bosstime boss16 1
