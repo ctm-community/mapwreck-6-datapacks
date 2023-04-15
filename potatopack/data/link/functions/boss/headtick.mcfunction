@@ -44,3 +44,8 @@ execute if score bosstime boss16 matches 210..249 if entity @s[nbt={HurtTime:10s
 
 #failsafes
 tag @s remove ca.rally_marked
+effect clear @s slowness
+effect clear @s weakness
+effect clear @s blindness
+effect clear @s nausea
+effect clear @s mining_fatigue

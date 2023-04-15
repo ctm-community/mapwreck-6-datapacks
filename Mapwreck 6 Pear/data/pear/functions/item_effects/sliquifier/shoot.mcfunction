@@ -1,0 +1,1 @@
+execute as @e[type=arrow,sort=nearest,limit=1,distance=..6] at @s run function pear:item_effects/sliquifier/arrow
