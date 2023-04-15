@@ -1,0 +1,28 @@
+[
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "chest": {
+        "nbt": "{ori_metabolic:1b}"
+      }
+    },
+    "effects": {
+      "minecraft:regeneration": {}
+    }
+  }
+},
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "effects": {
+        "minecraft:absorption": {}
+      }
+    }
+  }
+}
+]

@@ -1,0 +1,28 @@
+[
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "nbt": "{ori_metabolic_weak:1b}"
+      }
+    },
+    "effects": {
+      "minecraft:weakness": {}
+    }
+  }
+},
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "effects": {
+        "minecraft:absorption": {}
+      }
+    }
+  }
+}
+]

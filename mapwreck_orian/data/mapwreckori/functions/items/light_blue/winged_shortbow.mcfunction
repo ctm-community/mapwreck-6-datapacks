@@ -1,0 +1,1 @@
+give @s bow{display:{Name:'{"text":"Winged Shortbow","color":"blue","bold":true,"italic":false}',Lore:['{"text":"Evasion I","color":"gray","italic":false}','{"text":"Fleetfoot","color":"gray","italic":false}']},Enchantments:[{id:"minecraft:punch",lvl:1s}],CustomEnchantments:[{id:"evasion",lvl:1b},{id:"fleetfoot",lvl:1b}]} 1

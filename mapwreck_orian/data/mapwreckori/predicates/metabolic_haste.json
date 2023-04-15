@@ -1,0 +1,28 @@
+[
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "nbt": "{ori_metabolic:1b}"
+      }
+    },
+    "effects": {
+      "minecraft:haste": {}
+    }
+  }
+},
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "effects": {
+        "minecraft:absorption": {}
+      }
+    }
+  }
+}
+]
