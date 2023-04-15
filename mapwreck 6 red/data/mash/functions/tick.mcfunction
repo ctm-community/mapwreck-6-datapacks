@@ -17,3 +17,5 @@
     execute as @e[type=bat,tag=red.onibi] at @s run function mash:mob/onibi/tick
     execute as @e[type=vex,tag=red.ghost] at @s run function mash:mob/ghost/tick
     execute as @e[type=wolf,tag=red.komainu] at @s run function mash:mob/komainu/tick
+    execute as @e[type=zombie,tag=red.hitotsu] at @s run function mash:mob/hitotsu/tick
+    execute as @e[type=spider,tag=red.tsuchi] at @s run function mash:mob/tsuchi/tick
