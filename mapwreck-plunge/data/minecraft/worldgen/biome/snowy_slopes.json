@@ -1,0 +1,41 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 16711680,
+    "fog_color": 65280,
+    "water_color": 16711680,
+    "water_fog_color": 65280,
+    "grass_color": 65280,
+    "foliage_color": 16711680,
+    "particle":
+    {
+      "probability":0.005,
+      "options":
+      {
+        "type":"dust_color_transition",
+        "fromColor":[1,0,0],
+        "toColor":[0,1,0],
+        "scale":3
+      }
+    },
+    "mood_sound":
+    {
+      "sound":"minecraft:ambient.basalt_deltas.mood",
+      "block_search_extent": 2,
+      "offset":3,
+      "tick_delay": 300
+    },
+    "additions_sound":
+    {
+      "sound":"minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.01
+    },
+    "ambient_sound":"minecraft:ambient.basalt_deltas.loop"
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}
