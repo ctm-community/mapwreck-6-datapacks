@@ -1,0 +1,1 @@
+damage @s 0.01 minecraft:player_attack by @p

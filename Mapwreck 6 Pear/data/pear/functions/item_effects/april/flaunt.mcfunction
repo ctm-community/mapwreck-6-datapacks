@@ -1,0 +1,1 @@
+execute as @a[tag=pear.taunting] at @s as @e[type=#bb:hostile,distance=..16] at @s run function pear:item_effects/april/tempt

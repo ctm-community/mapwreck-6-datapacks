@@ -1,0 +1,1 @@
+execute as @e[type=#cartographer_core:hostile,distance=..5.5,nbt=!{HurtTime:0s}] at @s run function pear:item_effects/hex_eater/entity
