@@ -1,0 +1,1 @@
+execute if score @s pear.damage matches 800.. run function pear:item_effects/bone/summon

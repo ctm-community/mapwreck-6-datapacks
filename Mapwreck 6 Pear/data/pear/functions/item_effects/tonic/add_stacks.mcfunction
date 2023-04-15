@@ -1,0 +1,21 @@
+execute if score @s pear.tonic_stacks matches 1 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -1 add
+execute if score @s pear.tonic_stacks matches 2 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -2 add
+execute if score @s pear.tonic_stacks matches 3 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -3 add
+execute if score @s pear.tonic_stacks matches 4 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -4 add
+execute if score @s pear.tonic_stacks matches 5 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -5 add
+execute if score @s pear.tonic_stacks matches 6 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -6 add
+execute if score @s pear.tonic_stacks matches 7 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -7 add
+execute if score @s pear.tonic_stacks matches 8 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -8 add
+execute if score @s pear.tonic_stacks matches 9 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -9 add
+execute if score @s pear.tonic_stacks matches 10 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -10 add
+
+execute if score @s pear.tonic_stacks matches 11 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -11 add
+execute if score @s pear.tonic_stacks matches 12 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -12 add
+execute if score @s pear.tonic_stacks matches 13 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -13 add
+execute if score @s pear.tonic_stacks matches 14 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -14 add
+execute if score @s pear.tonic_stacks matches 15 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -15 add
+execute if score @s pear.tonic_stacks matches 16 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -16 add
+execute if score @s pear.tonic_stacks matches 17 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -17 add
+execute if score @s pear.tonic_stacks matches 18 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -18 add
+execute if score @s pear.tonic_stacks matches 19 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -19 add
+execute if score @s pear.tonic_stacks matches 20 run attribute @s minecraft:generic.max_health modifier add 16511820-1514-9316-6129-320 "affliction" -20 add

@@ -1,0 +1,31 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"pear.taunting\"]}"
+                }
+              }
+            }
+          ],
+          "item": {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{ItemApril:1b}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "pear:item_effects/april/use"
+    }
+  }
+  
