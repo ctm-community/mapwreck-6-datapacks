@@ -1,0 +1,1 @@
+attribute @s minecraft:generic.max_health modifier remove 16511820-1514-9316-6129-320
