@@ -21,7 +21,7 @@ execute if score beetroot boss16 matches 1.. if score 5hz gremloop matches 4 unl
 execute if score wheat boss16 matches 1.. if score 5hz gremloop matches 4 unless score active boss16 matches 1.. positioned ~-3 ~-1 ~-3 run particle happy_villager ~ ~ ~ 0.4 0.4 0.4 0 1
 
 #black wool, replace item nbt with whatever is relevant
-execute if score active boss16 matches 2.. unless entity @e[distance=..2,type=item,tag=blackwool] run summon item ~ ~ ~ {NoGravity:1b,PickupDelay:20,Invulnerable:1b,Tags:["blackwool"],Item:{id:"minecraft:black_wool",Count:1b}}
+execute if score active boss16 matches 2.. unless entity @e[distance=..2,type=item,tag=blackwool] run summon item ~ ~ ~ {NoGravity:1b,PickupDelay:20,Invulnerable:1b,Tags:["blackwool"],Item:{id:"minecraft:clock",Count:1b,tag:{CustomModelData:16,HideFlags:127,display:{Name:'{"text":"Black Wool","color":"#575757","italic":false}'},objective:16}}}
 #execute if score active boss16 matches 2.. run particle enchant ~ ~1.5 ~ 0 0 0 1 1
 #execute if score active boss16 matches 2.. run particle enchant ~ ~ ~ 1 1 1 0 1
 #execute if score active boss16 matches 2.. if score 1hz gremloop matches 3 run particle dust 0.000 0.000 0.000 1 ~ ~0.3 ~ 0.3 0.3 0.3 0 4 normal
