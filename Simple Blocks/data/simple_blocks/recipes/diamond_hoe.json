@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CC",
+        " O",
+        " O"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:diamond"
+        },
+        "O": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_hoe",
+        "count": 1
+    },
+    "category": "equipment",
+    "show_notification": false
+}

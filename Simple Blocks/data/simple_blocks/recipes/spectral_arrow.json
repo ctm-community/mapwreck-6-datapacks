@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " O ",
+        "OCO",
+        " O "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:arrow"
+        },
+        "O": {
+            "item": "minecraft:glowstone_dust"
+        }
+    },
+    "result": {
+        "item": "minecraft:spectral_arrow",
+        "count": 2
+    },
+    "category": "equipment",
+    "show_notification": false
+}

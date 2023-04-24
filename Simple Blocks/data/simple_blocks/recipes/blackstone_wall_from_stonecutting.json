@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+        "item": "minecraft:blackstone"
+    },
+    "result": "minecraft:blackstone_wall",
+    "show_notification": false
+}

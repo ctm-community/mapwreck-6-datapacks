@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:glass"
+        }
+    },
+    "result": {
+        "item": "minecraft:glass_pane",
+        "count": 16
+    },
+    "category": "building",
+    "show_notification": false
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CC",
+        "CO",
+        " O"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:stone_tool_materials"
+        },
+        "O": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_axe",
+        "count": 1
+    },
+    "category": "equipment",
+    "show_notification": false
+}

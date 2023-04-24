@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CMC",
+        "COC",
+        "CMC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:iron_ingot"
+        },
+        "O": {
+            "item": "minecraft:redstone_torch"
+        },
+        "M": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:activator_rail",
+        "count": 6
+    },
+    "category": "redstone",
+    "show_notification": false
+}

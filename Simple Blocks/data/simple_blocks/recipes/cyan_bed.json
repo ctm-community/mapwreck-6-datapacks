@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:planks"
+        },
+        "O": {
+            "item": "minecraft:cyan_wool"
+        }
+    },
+    "result": {
+        "item": "minecraft:cyan_bed",
+        "count": 1
+    },
+    "group": "bed",
+    "category": "building",
+    "show_notification": false
+}

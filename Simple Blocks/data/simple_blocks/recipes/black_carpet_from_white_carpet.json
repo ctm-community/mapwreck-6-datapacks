@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "OCO",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:black_dye"
+        },
+        "O": {
+            "item": "minecraft:white_carpet"
+        }
+    },
+    "result": {
+        "item": "minecraft:black_carpet",
+        "count": 8
+    },
+    "group": "carpet",
+    "category": "building",
+    "show_notification": false
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:amethyst_block"
+        },
+        {
+            "item": "minecraft:glass"
+        }
+    ],
+    "result": {
+        "item": "minecraft:tinted_glass",
+        "count": 2
+    },
+    "category": "building",
+    "show_notification": false
+}

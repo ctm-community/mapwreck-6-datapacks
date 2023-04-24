@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " O ",
+        "OCO",
+        " O "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:hay_block"
+        },
+        "O": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:target",
+        "count": 1
+    },
+    "category": "redstone",
+    "show_notification": false
+}

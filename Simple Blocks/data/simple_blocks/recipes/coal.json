@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:coal_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:coal",
+        "count": 9
+    },
+    "category": "misc",
+    "show_notification": false
+}

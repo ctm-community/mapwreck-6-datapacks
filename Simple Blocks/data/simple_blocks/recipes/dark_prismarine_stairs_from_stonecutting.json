@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": [
+        {
+            "item": "minecraft:dark_prismarine"
+        },
+        {
+            "item": "minecraft:prismarine"
+        }
+    ],
+    "result": "minecraft:dark_prismarine_stairs",
+    "show_notification": false
+}

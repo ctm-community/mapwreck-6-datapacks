@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "OCO",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:lime_dye"
+        },
+        "O": {
+            "item": "minecraft:terracotta"
+        }
+    },
+    "result": {
+        "item": "minecraft:lime_terracotta",
+        "count": 8
+    },
+    "group": "stained_terracotta",
+    "category": "building",
+    "show_notification": false
+}

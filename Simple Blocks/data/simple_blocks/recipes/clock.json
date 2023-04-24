@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+        "COC",
+        " C "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:gold_ingot"
+        },
+        "O": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:clock",
+        "count": 1
+    },
+    "category": "equipment",
+    "show_notification": false
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CC",
+        " O",
+        " O"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:stone_tool_materials"
+        },
+        "O": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_hoe",
+        "count": 1
+    },
+    "category": "equipment",
+    "show_notification": false
+}

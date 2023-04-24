@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "COC",
+        "OCO",
+        "COC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:gunpowder"
+        },
+        "O": [
+            {
+                "item": "minecraft:red_sand"
+            },
+            {
+                "item": "minecraft:sand"
+            }
+        ]
+    },
+    "result": {
+        "item": "minecraft:tnt",
+        "count": 1
+    },
+    "category": "redstone",
+    "show_notification": false
+}

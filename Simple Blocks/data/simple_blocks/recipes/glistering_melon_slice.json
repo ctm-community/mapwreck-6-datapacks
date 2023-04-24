@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "COC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:gold_nugget"
+        },
+        "O": {
+            "item": "minecraft:melon_slice"
+        }
+    },
+    "result": {
+        "item": "minecraft:glistering_melon_slice",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

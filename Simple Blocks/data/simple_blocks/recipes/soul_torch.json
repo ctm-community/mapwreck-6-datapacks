@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "O",
+        "M",
+        "C"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:soul_fire_base_blocks"
+        },
+        "O": [
+            {
+                "item": "minecraft:charcoal"
+            },
+            {
+                "item": "minecraft:coal"
+            }
+        ],
+        "M": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:soul_torch",
+        "count": 4
+    },
+    "category": "building",
+    "show_notification": false
+}

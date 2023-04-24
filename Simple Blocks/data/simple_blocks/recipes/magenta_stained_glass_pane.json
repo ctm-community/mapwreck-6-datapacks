@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:magenta_stained_glass"
+        }
+    },
+    "result": {
+        "item": "minecraft:magenta_stained_glass_pane",
+        "count": 16
+    },
+    "group": "stained_glass_pane",
+    "category": "building",
+    "show_notification": false
+}

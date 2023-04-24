@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": [
+        {
+            "item": "minecraft:waxed_copper_block"
+        },
+        {
+            "item": "minecraft:waxed_cut_copper"
+        }
+    ],
+    "result": "minecraft:waxed_cut_copper_stairs",
+    "show_notification": false
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "OCO",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "O": {
+            "item": "minecraft:nautilus_shell"
+        }
+    },
+    "result": {
+        "item": "minecraft:conduit",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

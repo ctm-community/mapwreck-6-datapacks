@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:candle"
+        },
+        {
+            "item": "minecraft:red_dye"
+        }
+    ],
+    "result": {
+        "item": "minecraft:red_candle",
+        "count": 1
+    },
+    "group": "dyed_candle",
+    "category": "building",
+    "show_notification": false
+}

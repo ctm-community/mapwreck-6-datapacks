@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:planks"
+        },
+        "O": {
+            "item": "minecraft:lime_wool"
+        }
+    },
+    "result": {
+        "item": "minecraft:lime_bed",
+        "count": 1
+    },
+    "group": "bed",
+    "category": "building",
+    "show_notification": false
+}

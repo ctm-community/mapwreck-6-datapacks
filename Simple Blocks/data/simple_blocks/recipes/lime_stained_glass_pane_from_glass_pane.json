@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "COC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:glass_pane"
+        },
+        "O": {
+            "item": "minecraft:lime_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:lime_stained_glass_pane",
+        "count": 8
+    },
+    "group": "stained_glass_pane",
+    "category": "building",
+    "show_notification": false
+}

@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": [
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:smooth_sandstone"
+        }
+    ],
+    "result": "minecraft:smooth_sandstone_stairs",
+    "show_notification": false
+}

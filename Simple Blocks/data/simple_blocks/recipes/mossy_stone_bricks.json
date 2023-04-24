@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:stone_bricks"
+        },
+        [
+            {
+                "item": "minecraft:moss_block"
+            },
+            {
+                "item": "minecraft:vine"
+            }
+        ]
+    ],
+    "result": {
+        "item": "minecraft:mossy_stone_bricks",
+        "count": 1
+    },
+    "group": "mossy_stone_bricks",
+    "category": "building",
+    "show_notification": false
+}

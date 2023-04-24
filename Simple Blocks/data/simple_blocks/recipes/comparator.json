@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " O ",
+        "OCO",
+        "MMM"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:quartz"
+        },
+        "O": {
+            "item": "minecraft:redstone_torch"
+        },
+        "M": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:comparator",
+        "count": 1
+    },
+    "category": "redstone",
+    "show_notification": false
+}

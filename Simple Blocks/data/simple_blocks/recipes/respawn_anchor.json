@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "OOO",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "O": {
+            "item": "minecraft:glowstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:respawn_anchor",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

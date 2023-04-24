@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+        "COC",
+        " C "
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:logs"
+        },
+        "O": {
+            "item": "minecraft:furnace"
+        }
+    },
+    "result": {
+        "item": "minecraft:smoker",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

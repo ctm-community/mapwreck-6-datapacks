@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": [
+        {
+            "item": "minecraft:netherrack"
+        },
+        {
+            "item": "minecraft:red_nether_bricks"
+        }
+    ],
+    "result": "minecraft:red_nether_brick_wall",
+    "show_notification": false
+}
