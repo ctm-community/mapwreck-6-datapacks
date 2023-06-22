@@ -75,7 +75,6 @@ recipe take @s simple_blocks:dark_prismarine
 recipe take @s simple_blocks:daylight_detector
 recipe take @s simple_blocks:detector_rail
 recipe take @s simple_blocks:diamond_axe
-recipe take @s simple_blocks:diamond_block
 recipe take @s simple_blocks:diamond_boots
 recipe take @s simple_blocks:diamond_chestplate
 recipe take @s simple_blocks:diamond_helmet
