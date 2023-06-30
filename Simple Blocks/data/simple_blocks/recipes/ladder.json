@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C C",
+        "CCC",
+        "C C"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:ladder",
+        "count": 3
+    },
+    "category": "building",
+    "show_notification": false
+}

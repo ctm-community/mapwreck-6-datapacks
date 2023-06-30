@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "COC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:terracotta"
+        },
+        "O": {
+            "item": "minecraft:white_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:white_terracotta",
+        "count": 8
+    },
+    "group": "stained_terracotta",
+    "category": "building",
+    "show_notification": false
+}

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": [
+        {
+            "item": "minecraft:waxed_cut_copper"
+        },
+        {
+            "item": "minecraft:waxed_cut_copper_slab"
+        },
+        {
+            "item": "minecraft:waxed_exposed_copper"
+        },
+        {
+            "item": "minecraft:waxed_exposed_cut_copper"
+        },
+        {
+            "item": "minecraft:waxed_oxidized_copper"
+        },
+        {
+            "item": "minecraft:waxed_oxidized_cut_copper"
+        },
+        {
+            "item": "minecraft:waxed_weathered_copper"
+        },
+        {
+            "item": "minecraft:waxed_weathered_cut_copper"
+        }
+    ],
+    "result": "minecraft:waxed_copper_block",
+    "show_notification": false
+}

@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": [
+        {
+            "item": "minecraft:cobblestone"
+        },
+        {
+            "item": "minecraft:mossy_stone_bricks"
+        }
+    ],
+    "result": "minecraft:mossy_stone_brick_stairs",
+    "show_notification": false
+}

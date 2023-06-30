@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": [
+        {
+            "item": "minecraft:deepslate_diamond_ore"
+        },
+        {
+            "item": "minecraft:diamond_ore"
+        }
+    ],
+    "result": "minecraft:diamond",
+    "experience": 1.0,
+    "cookingtime": 200.0,
+    "category": "misc",
+    "show_notification": false
+}

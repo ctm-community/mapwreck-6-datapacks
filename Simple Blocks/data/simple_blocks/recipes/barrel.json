@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "COC",
+        "C C",
+        "COC"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:planks"
+        },
+        "O": {
+            "tag": "minecraft:wooden_slabs"
+        }
+    },
+    "result": {
+        "item": "minecraft:barrel",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

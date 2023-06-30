@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C C",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:minecart",
+        "count": 1
+    },
+    "category": "equipment",
+    "show_notification": false
+}

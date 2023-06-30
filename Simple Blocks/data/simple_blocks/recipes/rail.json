@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C C",
+        "COC",
+        "C C"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:iron_ingot"
+        },
+        "O": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:rail",
+        "count": 16
+    },
+    "category": "redstone",
+    "show_notification": false
+}

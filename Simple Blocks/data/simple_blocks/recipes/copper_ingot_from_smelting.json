@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": [
+        {
+            "item": "minecraft:copper_ore"
+        },
+        {
+            "item": "minecraft:deepslate_copper_ore"
+        },
+        {
+            "item": "minecraft:raw_copper"
+        }
+    ],
+    "result": "minecraft:copper_ingot",
+    "experience": 0.7,
+    "cookingtime": 200.0,
+    "category": "misc",
+    "show_notification": false
+}

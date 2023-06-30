@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "MMO",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:cobblestone"
+        },
+        "O": {
+            "item": "minecraft:quartz"
+        },
+        "M": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:observer",
+        "count": 1
+    },
+    "category": "redstone",
+    "show_notification": false
+}

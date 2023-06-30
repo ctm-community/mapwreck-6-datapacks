@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OCO",
+        "CCC",
+        "OCO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:prismarine_crystals"
+        },
+        "O": {
+            "item": "minecraft:prismarine_shard"
+        }
+    },
+    "result": {
+        "item": "minecraft:sea_lantern",
+        "count": 1
+    },
+    "category": "building",
+    "show_notification": false
+}

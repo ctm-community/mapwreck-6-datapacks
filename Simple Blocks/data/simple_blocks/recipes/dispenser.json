@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "OCO",
+        "OMO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:bow"
+        },
+        "O": {
+            "item": "minecraft:cobblestone"
+        },
+        "M": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:dispenser",
+        "count": 1
+    },
+    "category": "redstone",
+    "show_notification": false
+}

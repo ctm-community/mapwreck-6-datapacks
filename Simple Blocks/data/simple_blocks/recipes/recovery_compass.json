@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "OCO",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:compass"
+        },
+        "O": {
+            "item": "minecraft:echo_shard"
+        }
+    },
+    "result": {
+        "item": "minecraft:recovery_compass",
+        "count": 1
+    },
+    "category": "equipment",
+    "show_notification": false
+}

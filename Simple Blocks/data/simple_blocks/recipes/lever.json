@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "O",
+        "C"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:cobblestone"
+        },
+        "O": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:lever",
+        "count": 1
+    },
+    "category": "redstone",
+    "show_notification": false
+}

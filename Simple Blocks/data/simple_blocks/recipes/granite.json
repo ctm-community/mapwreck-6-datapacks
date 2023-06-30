@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:diorite"
+        },
+        {
+            "item": "minecraft:quartz"
+        }
+    ],
+    "result": {
+        "item": "minecraft:granite",
+        "count": 1
+    },
+    "category": "building",
+    "show_notification": false
+}

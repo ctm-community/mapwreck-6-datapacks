@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "COC",
+        "MMM"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:glass"
+        },
+        "O": {
+            "item": "minecraft:nether_star"
+        },
+        "M": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "minecraft:beacon",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

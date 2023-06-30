@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "OCO",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:brown_dye"
+        },
+        "O": {
+            "item": "minecraft:glass"
+        }
+    },
+    "result": {
+        "item": "minecraft:brown_stained_glass",
+        "count": 8
+    },
+    "group": "stained_glass",
+    "category": "building",
+    "show_notification": false
+}

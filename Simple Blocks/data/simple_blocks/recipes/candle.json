@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "O",
+        "C"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:honeycomb"
+        },
+        "O": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:candle",
+        "count": 1
+    },
+    "category": "building",
+    "show_notification": false
+}

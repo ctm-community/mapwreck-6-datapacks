@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " M ",
+        "MCM",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:coals"
+        },
+        "O": {
+            "tag": "minecraft:logs"
+        },
+        "M": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:campfire",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

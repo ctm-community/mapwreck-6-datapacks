@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": [
+        {
+            "item": "minecraft:nether_bricks"
+        },
+        {
+            "item": "minecraft:netherrack"
+        }
+    ],
+    "result": "minecraft:nether_brick_stairs",
+    "show_notification": false
+}

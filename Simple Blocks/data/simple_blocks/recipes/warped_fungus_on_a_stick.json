@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C ",
+        " O"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:fishing_rod"
+        },
+        "O": {
+            "item": "minecraft:warped_fungus"
+        }
+    },
+    "result": {
+        "item": "minecraft:warped_fungus_on_a_stick",
+        "count": 1
+    },
+    "category": "equipment",
+    "show_notification": false
+}

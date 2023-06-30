@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "CCC",
+        " O "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:black_wool"
+        },
+        "O": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:black_banner",
+        "count": 1
+    },
+    "group": "banner",
+    "category": "building",
+    "show_notification": false
+}

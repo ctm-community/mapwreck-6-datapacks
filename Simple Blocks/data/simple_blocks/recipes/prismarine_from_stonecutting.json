@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": [
+        {
+            "item": "minecraft:dark_prismarine"
+        },
+        {
+            "item": "minecraft:dark_prismarine_slab"
+        },
+        {
+            "item": "minecraft:dark_prismarine_stairs"
+        },
+        {
+            "item": "minecraft:prismarine_brick_slab"
+        },
+        {
+            "item": "minecraft:prismarine_brick_stairs"
+        },
+        {
+            "item": "minecraft:prismarine_bricks"
+        },
+        {
+            "item": "minecraft:prismarine_slab"
+        },
+        {
+            "item": "minecraft:prismarine_stairs"
+        },
+        {
+            "item": "minecraft:prismarine_wall"
+        }
+    ],
+    "result": "minecraft:prismarine",
+    "show_notification": false
+}

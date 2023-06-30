@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OO",
+        "CC",
+        "CC"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:planks"
+        },
+        "O": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "item": "minecraft:cartography_table",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

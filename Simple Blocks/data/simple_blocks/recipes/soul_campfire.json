@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " M ",
+        "MOM",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:logs"
+        },
+        "O": {
+            "tag": "minecraft:soul_fire_base_blocks"
+        },
+        "M": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:soul_campfire",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

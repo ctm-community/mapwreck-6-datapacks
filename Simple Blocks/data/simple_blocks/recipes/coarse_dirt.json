@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CO",
+        "OC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:dirt"
+        },
+        "O": {
+            "item": "minecraft:gravel"
+        }
+    },
+    "result": {
+        "item": "minecraft:coarse_dirt",
+        "count": 4
+    },
+    "category": "building",
+    "show_notification": false
+}

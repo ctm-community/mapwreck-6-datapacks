@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C",
+        "O"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:blaze_rod"
+        },
+        "O": {
+            "item": "minecraft:popped_chorus_fruit"
+        }
+    },
+    "result": {
+        "item": "minecraft:end_rod",
+        "count": 4
+    },
+    "category": "building",
+    "show_notification": false
+}

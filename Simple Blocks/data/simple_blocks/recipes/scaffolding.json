@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "COC",
+        "C C",
+        "C C"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:bamboo"
+        },
+        "O": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:scaffolding",
+        "count": 6
+    },
+    "category": "misc",
+    "show_notification": false
+}

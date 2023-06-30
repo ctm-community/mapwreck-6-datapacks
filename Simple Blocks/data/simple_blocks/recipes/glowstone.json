@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CC",
+        "CC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:glowstone_dust"
+        }
+    },
+    "result": {
+        "item": "minecraft:glowstone",
+        "count": 1
+    },
+    "category": "building",
+    "show_notification": false
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": [
+        {
+            "item": "minecraft:deepslate_gold_ore"
+        },
+        {
+            "item": "minecraft:gold_ore"
+        },
+        {
+            "item": "minecraft:nether_gold_ore"
+        },
+        {
+            "item": "minecraft:raw_gold"
+        }
+    ],
+    "result": "minecraft:gold_ingot",
+    "experience": 1.0,
+    "cookingtime": 200.0,
+    "category": "misc",
+    "show_notification": false
+}

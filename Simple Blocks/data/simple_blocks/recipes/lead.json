@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OO ",
+        "OC ",
+        "  O"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:slime_ball"
+        },
+        "O": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:lead",
+        "count": 2
+    },
+    "category": "equipment",
+    "show_notification": false
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "C C",
+        "C C"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:leather"
+        }
+    },
+    "result": {
+        "item": "minecraft:leather_leggings",
+        "count": 1
+    },
+    "category": "equipment",
+    "show_notification": false
+}

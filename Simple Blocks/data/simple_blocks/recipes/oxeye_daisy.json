@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:oxeye_daisy"
+        },
+        {
+            "item": "minecraft:bone_meal"
+        }
+    ],
+    "result": {
+        "item": "minecraft:oxeye_daisy",
+        "count": 2
+    },
+    "group": "bonemeal_plants",
+    "category": "misc",
+    "show_notification": false
+}

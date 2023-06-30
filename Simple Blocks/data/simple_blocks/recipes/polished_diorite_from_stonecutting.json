@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+        "item": "minecraft:diorite"
+    },
+    "result": "minecraft:polished_diorite",
+    "show_notification": false
+}

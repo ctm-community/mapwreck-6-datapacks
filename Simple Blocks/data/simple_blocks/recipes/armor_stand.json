@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        " O ",
+        "OCO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:smooth_stone_slab"
+        },
+        "O": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:armor_stand",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

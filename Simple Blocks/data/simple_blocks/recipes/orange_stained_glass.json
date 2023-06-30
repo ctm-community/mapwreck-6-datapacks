@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "COC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:glass"
+        },
+        "O": {
+            "item": "minecraft:orange_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:orange_stained_glass",
+        "count": 8
+    },
+    "group": "stained_glass",
+    "category": "building",
+    "show_notification": false
+}

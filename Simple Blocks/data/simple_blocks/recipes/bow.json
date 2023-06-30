@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " CO",
+        "C O",
+        " CO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:stick"
+        },
+        "O": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:bow",
+        "count": 1
+    },
+    "category": "equipment",
+    "show_notification": false
+}

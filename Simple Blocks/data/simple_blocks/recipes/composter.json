@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C C",
+        "C C",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:wooden_slabs"
+        }
+    },
+    "result": {
+        "item": "minecraft:composter",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

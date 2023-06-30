@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CC",
+        "CC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:pointed_dripstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:dripstone_block",
+        "count": 1
+    },
+    "group": "pointed_dripstone",
+    "category": "building",
+    "show_notification": false
+}

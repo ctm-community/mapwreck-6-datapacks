@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:snow_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:snow",
+        "count": 6
+    },
+    "category": "building",
+    "show_notification": false
+}

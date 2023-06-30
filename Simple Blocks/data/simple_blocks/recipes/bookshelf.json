@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "OOO",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:planks"
+        },
+        "O": {
+            "item": "minecraft:book"
+        }
+    },
+    "result": {
+        "item": "minecraft:bookshelf",
+        "count": 1
+    },
+    "category": "building",
+    "show_notification": false
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        " O ",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:iron_block"
+        },
+        "O": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:anvil",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

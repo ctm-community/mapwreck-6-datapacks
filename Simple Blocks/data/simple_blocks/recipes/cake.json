@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "MCM",
+        "PPP"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:egg"
+        },
+        "O": {
+            "item": "minecraft:milk_bucket"
+        },
+        "M": {
+            "item": "minecraft:sugar"
+        },
+        "P": {
+            "item": "minecraft:wheat"
+        }
+    },
+    "result": {
+        "item": "minecraft:cake",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

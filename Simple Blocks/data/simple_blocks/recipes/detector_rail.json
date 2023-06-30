@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C C",
+        "CMC",
+        "COC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:iron_ingot"
+        },
+        "O": {
+            "item": "minecraft:redstone"
+        },
+        "M": {
+            "item": "minecraft:stone_pressure_plate"
+        }
+    },
+    "result": {
+        "item": "minecraft:detector_rail",
+        "count": 6
+    },
+    "category": "redstone",
+    "show_notification": false
+}

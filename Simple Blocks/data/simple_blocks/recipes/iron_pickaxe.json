@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        " O ",
+        " O "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:iron_ingot"
+        },
+        "O": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_pickaxe",
+        "count": 1
+    },
+    "category": "equipment",
+    "show_notification": false
+}

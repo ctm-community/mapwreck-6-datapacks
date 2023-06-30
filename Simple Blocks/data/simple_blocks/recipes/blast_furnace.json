@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "OCO",
+        "MMM"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:furnace"
+        },
+        "O": {
+            "item": "minecraft:iron_ingot"
+        },
+        "M": {
+            "item": "minecraft:smooth_stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:blast_furnace",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

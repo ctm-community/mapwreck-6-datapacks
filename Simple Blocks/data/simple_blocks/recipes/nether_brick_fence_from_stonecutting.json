@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+        "item": "minecraft:netherrack"
+    },
+    "result": "minecraft:nether_brick_fence",
+    "show_notification": false
+}

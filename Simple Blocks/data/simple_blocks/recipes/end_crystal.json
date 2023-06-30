@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MMM",
+        "MCM",
+        "MOM"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:ender_eye"
+        },
+        "O": {
+            "item": "minecraft:ghast_tear"
+        },
+        "M": {
+            "item": "minecraft:glass"
+        }
+    },
+    "result": {
+        "item": "minecraft:end_crystal",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

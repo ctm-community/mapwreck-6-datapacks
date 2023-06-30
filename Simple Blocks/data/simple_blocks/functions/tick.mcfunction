@@ -1,0 +1,1 @@
+execute as @a run function simple_blocks:check_crafting

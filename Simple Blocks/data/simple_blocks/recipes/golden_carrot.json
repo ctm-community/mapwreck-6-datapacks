@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        "OCO",
+        "OOO"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:carrot"
+        },
+        "O": {
+            "item": "minecraft:gold_nugget"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_carrot",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}

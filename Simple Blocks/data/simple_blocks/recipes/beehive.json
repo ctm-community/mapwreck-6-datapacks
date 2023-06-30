@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "OOO",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:planks"
+        },
+        "O": {
+            "item": "minecraft:honeycomb"
+        }
+    },
+    "result": {
+        "item": "minecraft:beehive",
+        "count": 1
+    },
+    "category": "misc",
+    "show_notification": false
+}
