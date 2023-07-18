@@ -1,0 +1,2 @@
+function simple_blocks:take_recipes/crafting_shaped_large
+function simple_blocks:take_recipes/crafting_shapeless_large

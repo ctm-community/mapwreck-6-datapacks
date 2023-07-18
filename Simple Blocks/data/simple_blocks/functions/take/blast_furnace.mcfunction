@@ -1,0 +1,1 @@
+function simple_blocks:take_recipes/blasting

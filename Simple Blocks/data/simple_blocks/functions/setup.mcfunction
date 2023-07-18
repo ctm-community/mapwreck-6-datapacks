@@ -10,3 +10,5 @@ scoreboard objectives add simple_blocks.opened.furnace custom:interact_with_furn
 scoreboard objectives add simple_blocks.crafting_state dummy
 scoreboard objectives add simple_blocks.yaw dummy
 scoreboard objectives add simple_blocks.pitch dummy
+
+function simple_blocks:reset/loop
